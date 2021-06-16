@@ -3,11 +3,14 @@ import "./App.css";
 import Row from "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
       {/* <h1>Building EssFlix</h1> */}
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
